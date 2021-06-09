@@ -1,0 +1,59 @@
+h1{
+    color:aqua;
+    margin: 30px;
+}
+.aboutme{
+    margin-right: 30px;
+}
+.aboutme a{
+    margin-left: 20px;
+}
+.header{
+    background-color: rgb(155, 82, 223);
+    display: flex;
+    justify-content: space-between;
+    font-style: bold;
+    
+}
+.games{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    
+        border: 10px solid fuchsia;
+        border-image-source: url("fluffy.png");
+        border-image-slice: 13 30 7 1;
+
+        
+    
+}
+.footer{
+    display: flex;
+    justify-content: flex-end;
+}
+p{
+    text-align: center;
+    text-decoration: underline  #f99 
+    
+   
+}
+body{
+    background-attachment: fixed;
+    border-bottom-style: dotted;
+    caption-side: inherit;
+}
+.game{
+    position: relative;
+}
+.game p{
+    position: absolute;
+    top:50%;
+    left:50%;
+    opacity: 0;
+}
+.game:hover p{
+    opacity: 1;
+}
+.game:hover img{
+    opacity: 0.2;
+}
